@@ -1,0 +1,17 @@
+# Render.com Deployment Configuration
+
+services:
+  - type: web
+    name: vast-project
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn vast_project.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.0"
+      - key: DEBUG
+        value: "False"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALLOWED_HOSTS
+        value: ".onrender.com"
