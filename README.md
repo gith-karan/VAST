@@ -15,6 +15,10 @@
   <img src="https://img.shields.io/badge/Type-Academic%20Project-green?style=for-the-badge" alt="Academic"/>
 </p>
 
+<p align="center">
+  <a href="https://vast-f3z1.onrender.com/">🌐 Live Demo</a>
+</p>
+
 ---
 
 ## Project Overview
