@@ -97,9 +97,9 @@ vast_project/
 │   └── templates/
 ├── services/                    # Core scanning modules
 │   ├── models.py               # EmailCheck, URLCheck, FileCheck models
-│   ├── email_views.py          # Email scanning logic (~85KB)
-│   ├── url_views.py            # URL scanning logic (~73KB)
-│   ├── file_views.py           # File scanning logic (~95KB)
+│   ├── email_views.py          # Email scanning logic 
+│   ├── url_views.py            # URL scanning logic 
+│   ├── file_views.py           # File scanning logic 
 │   ├── scan_limiter.py         # Guest user scan limits
 │   ├── feedback.py             # User feedback handling
 │   └── templates/
@@ -251,39 +251,5 @@ The project uses Black Box Testing methodology focusing on:
 
 ---
 
-## Project Details
-
-| Field | Information |
-|-------|-------------|
-| **Project Title** | Virus Analysis and Scanning Tool (V.A.S.T.) |
-| **Course** | Capstone Project-II (2CEIT605) |
-| **Academic Year** | 2024-2025 |
-| **Semester** | VI (B.Tech Computer Engineering) |
-| **Institution** | U.V. Patel College of Engineering, Ganpat University |
-| **Project Guide** | Prof. Jyoti Srivastava |
-
-### Team Members
-- Karan Yadav (22012011052)
-- Naman Shah (22012011103)
-- Bhakti Munjapara (22012011071)
-- Akbarhusain Bhatt (22012011055)
-
----
-
-## License
-
 This project is developed for educational purposes as part of academic coursework at Ganpat University.
 
----
-
-## Acknowledgments
-
-- Prof. Jyoti Srivastava for guidance and support
-- Dr. Paresh M. Solanki, Head of Computer Engineering Department
-- U.V. Patel College of Engineering, Ganpat University
-
----
-
-<p align="center">
-  <strong>Made with dedication for a safer digital world</strong>
-</p>
